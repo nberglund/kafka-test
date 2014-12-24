@@ -16,6 +16,7 @@ namespace KafkaTest1
       var options = new KafkaOptions(new Uri("http://localhost:9092"));
       var router = new BrokerRouter(options);
       var client = new Producer(router);
+      
 
       var message = "Hello Kafka from C# - 2";
 
